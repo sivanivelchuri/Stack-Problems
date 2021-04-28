@@ -1,0 +1,10 @@
+stack=[]
+stack.append('a')
+stack.append('x')
+stack.append('z')
+print('initial:',stack)
+print("elements poped:")
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print("Stack after popping elements:",stack)
